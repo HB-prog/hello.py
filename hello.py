@@ -62,3 +62,12 @@ if is_prime == True:
     print("%d은 소수입니다." %num)
 else:
     print("%d은 소수입니다." %num)
+
+
+
+#홀짝 판별하기
+is_even = int(input("숫자를 입력해주세요: "))
+if is_even%2 == 0:
+    print("짝수입니다.")
+else:
+    print("홀수입니다.")
